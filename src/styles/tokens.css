@@ -1,0 +1,65 @@
+:root {
+  /* Core Palette */
+  --hf-bg-primary: #0f1113;
+  --hf-bg-elevated: #17191c;
+  --hf-bg-card: #1c1e20;
+  --hf-bg-card-hover: #222528;
+  --hf-bg-glass: rgba(15, 17, 19, 0.84);
+  --hf-bg-chip: rgba(255, 255, 255, 0.06);
+  --hf-bg-chip-hover: rgba(255, 255, 255, 0.11);
+
+  /* Brand Lime */
+  --hf-lime: #d1fe17;
+  --hf-lime-hover: #dcf94f;
+  --hf-lime-dim: rgba(209, 254, 23, 0.15);
+  --hf-lime-dim-border: rgba(209, 254, 23, 0.32);
+  --hf-lime-olive: rgba(114, 140, 12, 0.42);
+  --hf-lime-olive-hover: rgba(145, 178, 16, 0.56);
+
+  /* Promo Pink / Violet */
+  --hf-pink: #ff005b;
+  --hf-magenta: #ef1dba;
+  --hf-purple: #b01def;
+  --hf-pink-badge-gradient: linear-gradient(125deg, #b01def 0%, #ff005b 55%, #ef1dba 100%);
+
+  /* Text */
+  --hf-text-primary: #f7f7f8;
+  --hf-text-white: #ffffff;
+  --hf-text-secondary: #a8a8a8;
+  --hf-text-muted: #767980;
+  --hf-text-dark: #131517;
+
+  /* Borders */
+  --hf-border-subtle: rgba(255, 255, 255, 0.07);
+  --hf-border-card: rgba(255, 255, 255, 0.08);
+  --hf-border-hover: rgba(255, 255, 255, 0.18);
+
+  /* Typography */
+  --hf-font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --hf-font-display: 'Space Grotesk', 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --hf-font-serif: 'Instrument Serif', Georgia, serif;
+  --hf-font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+
+  /* Radii */
+  --hf-radius-sm: 8px;
+  --hf-radius-md: 10px;
+  --hf-radius-lg: 14px;
+  --hf-radius-xl: 16px;
+  --hf-radius-2xl: 20px;
+  --hf-radius-pill: 9999px;
+
+  /* Spacing & Layout */
+  --hf-header-height: 52px;
+  --hf-max-width: 1440px;
+  --hf-gutter: 16px;
+
+  /* Shadows */
+  --hf-shadow-modal: 0 24px 64px rgba(0, 0, 0, 0.72), 0 0 0 1px rgba(255, 255, 255, 0.08);
+  --hf-shadow-card: 0 8px 28px rgba(0, 0, 0, 0.35);
+}
+
+@media (max-width: 767px) {
+  :root {
+    --hf-gutter: 12px;
+  }
+}
